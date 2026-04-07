@@ -1,0 +1,440 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-color: black;
+
+}
+header{
+    width: auto;
+    height: 70px;
+    
+    display: flex;
+    justify-content: space-around;
+    
+}
+h3{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+}
+ul{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    color: aqua;
+}
+#first_main_box{
+    width: auto;
+    height: 700px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+   background: url(https://pics.craiyon.com/2023-11-01/cbe83404192648c8b407570fa9f4f869.webp);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-top: 90px;
+}
+ .left_side_box{
+    margin: 100px;
+    padding-left: 150px;
+}
+.first_main_box h2{
+    font-size: 50px;
+
+}
+
+.left_side_box h4,h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: 40px;
+}
+span{
+    color: aqua;
+}
+.content{
+    padding-top: 10px;
+    color: aliceblue;
+}
+ .right_side_box{
+    padding-top: 40px;
+    padding-right: 90px;
+   
+
+}
+.right_side_box img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+button{
+    border-radius: 30px;
+    background-color: aqua;
+    color:black;
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+    border: transparent;
+}
+#second_main_box{
+     width: auto;
+    height: 600px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+   background: url(https://pics.craiyon.com/2023-11-01/cbe83404192648c8b407570fa9f4f869.webp);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-top: 90px;
+}
+.left_side_pic{
+    padding-top: 40px;
+    padding-right: 90px;
+}
+.left_side_pic img{
+     width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+.right_side_content{
+    width: 450px;
+    margin-left: 400px;
+}
+h3{
+    font-size: 30px;
+}
+h5{
+    color: aliceblue;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.right_side_content p{
+    font-size: 18px;
+    color: aliceblue;  
+} 
+#Thrid_side_box{
+    width: 100%;
+    height: 700px;
+    margin-top: 200px;
+}
+.first_box{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+#Thrid_side_box h3{
+    text-align: center;
+}
+
+
+.box1{
+    width: 400px;
+    height: 350px;
+    border: 2px solid aqua;
+    margin-left: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 10px blue;
+}
+.box1:hover{
+    transform: scale(1.05);
+}
+.box1 h4{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#k{
+    font-size: 50px;
+    color: aqua;
+    padding: 10px;
+}
+.box1 p{
+    padding-top: 10px;
+    color: aliceblue;
+    padding-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#btn{
+    margin-left: 20px;
+}
+.box2{
+    width: 400px;
+    height: 350px;
+    border: 2px solid aqua;
+    margin-left: 50px;
+    border-radius: 15px;
+   box-shadow: 0px 0px 15px 10px blue;
+}
+.box2:hover{
+    transform: scale(1.05);
+}
+.box2 h4{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.box2 p{
+    padding-top: 10px;
+    color: aliceblue;
+    padding-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box3{
+    width: 400px;
+    height: 350px;
+    border: 2px solid aqua;
+    margin-left: 50px;
+    border-radius: 15px;
+   box-shadow: 0px 0px 15px 10px blue;
+}
+.box3:hover{
+    transform: scale(1.05);
+}
+.box3 h4{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.box3 p{
+    padding-top: 10px;
+    color: aliceblue;
+    padding-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#fourth_side_box{
+    width: 100%;
+    height: 700px;
+   
+    
+}
+.second_box{
+   
+    display: flex;
+    gap: 20px;
+}
+.second_box h3{
+    text-align: center;
+}
+.box4{
+   width: 400px;
+    height: 300px;
+     border: 2px solid aqua;
+    margin-left: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 10px blue;
+}
+.box4:hover{
+    transform: scale(1.05);
+}
+.box4 h5{
+    text-align: center;
+}
+.box4 p{
+    padding-top: 10px;
+    color: aliceblue;
+    padding-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box5{
+    width: 400px;
+    height: 300px;
+     border: 2px solid aqua;
+    
+    margin-left: 50px;
+    border-radius: 15px;
+     box-shadow: 0px 0px 15px 10px blue;
+}
+.box5:hover{
+    transform: scale(1.05);
+}
+.box5 h5{
+    text-align: center;
+}
+.box5 p{
+    padding-top: 10px;
+    color: aliceblue;
+    padding-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box6{
+    width: 400px;
+    height: 300px;
+     border: 2px solid aqua;
+   
+    margin-left: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 10px blue;
+}
+.box6:hover{
+    transform: scale(1.05);
+}
+.box6 h5{
+    text-align: center;
+}
+.box6 p{
+     padding-top: 10px;
+    color: aliceblue;
+    padding-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Contact{
+    margin-left: 10px;
+}
+form{
+    text-align: center;
+    background-color: rgb(16, 98, 211);
+    width: 350px;
+    height: 350px;
+    margin-left: 800px;
+    margin-bottom: 200px;
+    border-radius: 10px;
+     box-shadow: 0px 0px 15px 7px blue; 
+}
+input{
+    margin-top: 30px;
+    width: 250px;
+    height: 20px;
+}
+button{
+
+    margin-bottom: 30px;
+}
+/*footer*/
+footer{
+background-color: rgb(107, 102, 236);
+align-items: center;
+    height: 30px;
+    text-align: center;
+    color:aliceblue;
+}
+/* ================= RESPONSIVE DESIGN ================= */
+
+/* Tablets */
+@media (max-width: 1024px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    #first_main_box,
+    #second_main_box {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .left_side_box,
+    .right_side_box,
+    .left_side_pic,
+    .right_side_content {
+        margin: 0;
+        padding: 20px;
+    }
+
+    .right_side_box img,
+    .left_side_pic img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .first_box,
+    .second_box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    form {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+    ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #Thrid_side_box,
+    #fourth_side_box {
+        height: auto;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .right_side_box img,
+    .left_side_pic img {
+        width: 220px;
+        height: 220px;
+    }
+
+    button {
+        width: 120px;
+        height: 30px;
+    }
+
+    form {
+        width: 90%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    input {
+        width: 80%;
+    }
+}
+
+
+
+
+
+    
+
+
+
